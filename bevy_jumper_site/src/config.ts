@@ -39,5 +39,7 @@ export const SIDEBAR = {
 		{ text: 'Introduction', link: 'getting-started/introduction' },
 		{ text: 'Setting up Rust', link: 'getting-started/rust-setup' },
 		{ text: 'Setting up Bevy', link: 'getting-started/bevy-setup' },
+		{ text: 'Setting up Assets', link: 'getting-started/asset-setup' },
+		{ text: 'Creating a Level', header: true },
 	],
 };

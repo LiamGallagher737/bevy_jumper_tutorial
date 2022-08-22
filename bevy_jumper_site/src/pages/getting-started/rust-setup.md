@@ -17,11 +17,11 @@ The easiest way to create a new Rust project is to open an empty folder in a ter
 After runnng `cargo init` your folder should look like this.
 
 ```
-📦Your Folder
+📦Project Folder
  ┣ 📂src
  ┃ ┗ 📜main.rs
  ┣ 📜.gitignore
- ┣ 📜Cargo.toml
+ ┗ 📜Cargo.toml
 ```
 
 ## Check it's working
@@ -29,14 +29,14 @@ After runnng `cargo init` your folder should look like this.
 To ensure everything is working properly enter `cargo run` in the terminal and after a bit of waiting `Hello, world!` should appear in the termnal. Your project folder should also have updated to look like the following.
 
 ```
-📦Your Folder
+📦Project Folder
  ┣ 📂src
  ┃ ┗ 📜main.rs
  ┣ 📂target
  ┃ ┗ A ton of files
  ┣ 📜.gitignore
  ┣ 📜Cargo.toml
- ┣ 📜Cargo.lock
+ ┗ 📜Cargo.lock
 ```
 
 The target folder is where your application files and data is outputted when you run or build it.
