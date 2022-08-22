@@ -41,5 +41,7 @@ export const SIDEBAR = {
 		{ text: 'Setting up Bevy', link: 'getting-started/bevy-setup' },
 		{ text: 'Setting up Assets', link: 'getting-started/asset-setup' },
 		{ text: 'Creating a Level', header: true },
+		{ text: 'Setting up a Camera', link: 'level-creation/camera-setup' },
+		{ text: 'Adding a Background', link: 'level-creation/background' },
 	],
 };

@@ -9,5 +9,10 @@ fn main() {
             ..default()
         })
         .add_plugins(DefaultPlugins)
+        .add_startup_system(startup)
         .run();
+}
+
+fn startup(mut commands: Commands) {
+    commands.spawn_bundle(Camera2dBundle::default());
 }
