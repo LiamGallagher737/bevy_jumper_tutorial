@@ -6,11 +6,11 @@ layout: ../../layouts/MainLayout.astro
 
 ## Use the Asset Server
 
-In the `startup` system, add another parameter of type `Res` containg `AssetServer`, we can use this to load any files within the `assets` folder. `Res` stands to resource and is what you use for sharing data with lot's of diferent systems.
+In the `startup` system, add another parameter of type `Res` containg `AssetServer`, we can use this to load any files within the `assets` folder. `Res` stands for resource and is what you use for sharing data with lot's of diferent systems. This resource will let us access the apps asset server which we can use to load files from the [assets folder](../getting-started/asset-setup).
 
 ```rs
 fn startup(mut commands: Commands, asset_server: Res<AssetServer>) {
-    // Some Code
+    // Camera Spawning Code
 }
 ```
 
@@ -22,7 +22,7 @@ We can load the images by using `asset_server.load()` and inputting the path of 
 let background_1 = asset_server.load("Background/bg_layer1.png");
 ```
 
-The `let` keyword is use to initalize a variable.
+The `let` keyword is use to initalize a variable. Here we are setting the `background_1` variable equal to the result of the `asset_server.load()` function. In our case the result is a `Handle<Image>`.
 
 ## Spawn the Background Entities
 

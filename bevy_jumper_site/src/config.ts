@@ -37,6 +37,7 @@ export const SIDEBAR = {
 		{ text: '', header: true },
 		{ text: 'Getting Started', header: true },
 		{ text: 'Introduction', link: 'getting-started/introduction' },
+		{ text: 'Bevy Fundamentals', link: 'getting-started/bevy-fundamentals' },
 		{ text: 'Setting up Rust', link: 'getting-started/rust-setup' },
 		{ text: 'Setting up Bevy', link: 'getting-started/bevy-setup' },
 		{ text: 'Setting up Assets', link: 'getting-started/asset-setup' },
